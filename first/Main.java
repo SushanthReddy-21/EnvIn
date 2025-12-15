@@ -5,7 +5,7 @@ class Main{
         Scanner  sc=new Scanner(System.in);
         System.out.println("Welcome to EnvIn");
         System.out.println("Enter your name:");
-        String name=s.nextLine();
+        String name=sc.nextLine();
         System.out.println("Hello, "+name+"!");
         sc.close();
     }
